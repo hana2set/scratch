@@ -15,11 +15,11 @@ class Scratch {
     private class Test{
 
         public void tempmethod() {
-            System.out.println("Test.tempmethod");
+            System.out.println("내부클래스.tempmethod");
             Scratch.this.method();
         }
         public void method() {
-            System.out.println("Test.method");
+            System.out.println("내부클래스.method");
             return;
         }
     }
